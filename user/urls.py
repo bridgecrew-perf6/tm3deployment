@@ -10,6 +10,5 @@ urlpatterns = [
     path('accounts/', include('django.contrib.auth.urls')),
     path('profile_update', views.profile_update, name='profile_update'),
     path('signup', views.signup, name='signup'),
-    path('workorder_new', views.workorder_new, name='workorder_new'),
 
 ]
